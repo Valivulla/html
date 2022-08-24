@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .navbar ul li{
+            list-style: none;
+        }
+
+        .navbar ul li a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar ul{
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+        }
+
+        .navbar ul li{
+            padding: 10px 50px;
+            margin: 5px 10px;
+        }
+
+        img{
+            display: block;
+            position: relative;
+            width: 150px;
+            left: 700px;
+            padding: 50px 0px;
+        }
+
+        .lists{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 30px 0px;
+        }
+        footer{
+            text-align: center;
+            color: white;
+            padding: 18px 0px;
+        }
+        #foot::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 8%;
+            background-color: black;
+            color: white;
+            z-index: -1;
+            opacity: 0.9;
+            /* bottom: 0px; */
+        }
+
+        table,th,td{
+            border: 2px solid black;
+            text-align: center;
+        }
+        .table{
+            padding: 30px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT-US</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <a href="https://ums.lpu.in/lpuums/" target="_blank"> <img src="lpu.jpg" alt="lpu"> </a>
+        </div>
+        <hr>
+        <div class="lists">
+            <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+        
+            <ol type="I">
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ol>
+        </div>
+        <hr>
+        <div class="table">
+            <table width="20%" >
+                <tr>
+                    <th>S.no</th>
+                    <th>name</th>
+                    <th>role</th>
+                </tr>
+    
+                <tr>
+                    <td>1</td>
+                    <td>Asif</td>
+                    <td>Full Stack Developer</td>
+                </tr>
+    
+                <tr>
+                    <td>2</td>
+                    <td>Karthik</td>
+                    <td>Software Engineer</td>
+                </tr>
+    
+                <tr>
+                    <td>3</td>
+                    <td>Hanish</td>
+                    <td>Game Developer</td>
+                </tr>
+            </table>
+        </div>
+        <section id="foot">
+            <footer>&copy; 12007189 shaikvalivulla</footer>
+        </section>
+    </div>
+</body>
+</html>
